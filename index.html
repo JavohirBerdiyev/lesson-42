@@ -5,14 +5,56 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>PayApi</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <section id="hero">
+    <header class="site-header header">
+      <div class="container">
+        <div class="row middle between">
+          <div class="header__logobox">
+            <a href="#">
+              <img class="header__logo" src="img/logo.svg" alt="logo">
+            </a>
+          </div>
+          <div class="header__menu" id="headerMenu">
+            <nav class="header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link link" href="#">pricing</a></li>
+                <li class="nav__item"><a class="nav__link link" href="#">about</a></li>
+                <li class="nav__item"><a class="nav__link link" href="#">contact</a></li>
+              </ul>
+            </nav>
+            <a class="header__btn link btn" href="#">Schedule a Demo</a>
+          </div>
+          <button id="openMenu" class="header__menuBtn"><i id="icon" class='bx bx-menu'></i></button>
+        </div>
+      </div>
+    </header>
 
+    <div class="hero-content hero">
+      <div class="container">
+        <div class="row middle between hero__row">
+          <div class="hero__info">
+            <h1 class="hero__title">Start building with our APIs for absolutely free.</h1>
+            <form class="hero__form form">
+              <input class="form__input" type="email" placeholder="Enter email address" name="email">
+              <button class="form__btn btn" type="submit">Schedule a Demo</button>
+              <span class="form__span">Have any questions? <a class="form__link" href="#">Contact Us</a></span>
+            </form>
+          </div>
+          <div class="hero__imgbox">
+            <img class="hero__img" src="./img/phone.svg" alt="phone">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="js/main.js"></script>
 </body>
 
